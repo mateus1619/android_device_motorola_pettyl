@@ -19,4 +19,8 @@ $(call inherit-product, device/motorola/pettyl/full_pettyl.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
+PRODUCT_DEVICE := pettyl
 PRODUCT_NAME := omni_pettyl
+PRODUCT_BRAND := motorola
+PRODUCT_MODEL := Moto E5 play GO
+PRODUCT_MANUFACTURER := Motorola
